@@ -21,20 +21,22 @@ create table manager(enumber number(6),ename char(15),salary number(5),commissio
 ```
 ## insert the following values into the table
 ```sql
-insert into manager values(7369,'Dharsan',2500,500,30000,'30-June-81','clerk',10,'John');
-insert into manager values(7839,'Subu',3000,400,36000,'1-Jul-82','manager',null,'James');
-insert into manager values(7934,'Aadhi',3500,300,42000,'1-May-82','manager',30,NULL);
-insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bond');
+insert into manager values(7369,'Dharani',2500,500,30000,'30-June-81','clerk',10,'John');
+insert into manager values(7839,'Sobbo',3000,400,36000,'1-Jul-82','manager',null,'James');
+insert into manager values(7934,'Aadhithiya',3500,300,42000,'1-May-82','manager',30,NULL);
+insert into manager values(7788,'Vikashark',4000,0,48000,'12-Aug-82','clerk',50,'Bond');
 ```
 
 ### Q1) Update all the records of manager table by increasing 10% of their salary as bonus.
 
 ### QUERY:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/20b5ab62-66de-4934-a8ae-7f666206f632)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/150d7797-c398-4a75-b7d1-b731bac9a563)
+
 
 
 ### OUTPUT:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/d5558323-bfa4-4104-ae96-2f7a984d627d)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/b1c6ce00-d597-4430-b5f0-7d7884371ab1)
+
 
 
 ### Q2) Delete the records from manager table where the salary less than 2750.
@@ -48,20 +50,24 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ### Q3) Display each name of the employee as “Name” and annual salary as “Annual Salary” (Note: Salary in emp table is the monthly salary)
 ### QUERY:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/6784d296-d5ef-498d-a21e-3ffaa41389f3)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/78be90ee-8707-45f4-9dfe-385b916f3bb0)
+
 
 
 ### OUTPUT:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/351ecc3d-3113-4b9c-b4f1-00f20c7ad0c0)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/5145671b-c03a-4089-8bca-1c3b60c3bcd3)
+
 
 
 ### Q5)	List the names of Clerks from emp table.
 ## QUERY:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/ec04671d-d723-4f00-bccf-cd4978f960ac)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/be937ee1-2f29-4603-bd92-3651c0a7f809)
+
 
 
 ### OUTPUT:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/352c29e7-33ec-4dd8-95eb-2157fb81d925)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/78785bfb-500b-4eea-ba49-0afb1de5854d)
+
 
 
 ### Q6)	List the names of employee who are not Managers.
@@ -75,11 +81,13 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ### Q7)	List the names of employees not eligible for commission.
 ### QUERY:
- ![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/4ac256c3-fda8-4935-b5c8-b49dd4cd39c2)
+ ![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/52ea2b34-5f76-4b25-bfd2-19445508eb34)
+
 
 
 ### OUTPUT:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/bb9263a2-0400-482a-89b2-13661809f221)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/ca5eb987-0b62-437a-8d1c-73b6b9307939)
+
 
 
 
@@ -87,11 +95,13 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 
 ### QUERY:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/1369f857-2077-4b9e-9f81-2a5308aeeb0b)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/a1875b08-a5a3-45a9-81df-ea1bea66dfc9)
+
 
 
 ### OUTPUT:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/49006793-3379-41ca-80cb-255d3b0e2baa)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/4903b3da-b8bc-431c-ad73-f04ad7d790fb)
+
 
 
 
@@ -99,12 +109,14 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 
 ### QUERY:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/2dea63fe-be52-47b0-8ab4-3cfc53aca8cd)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/67c73c8d-9c2f-4f22-bc81-f9506a079afa)
+
 
 
 
 ### OUTPUT:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/bc11524a-2b5b-4cc5-97af-525d4cf91482)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/3fdf40c6-c8d2-4b0c-a689-058ab9ed6e92)
+
 
 
 
@@ -112,12 +124,13 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 
 ### QUERY:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/a420fbed-5762-4f6f-8cfa-e106be8fe0c3)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/1eb95e22-459b-4c4a-bfd4-061c4ffcc028)
+
 
 
 
 ### OUTPUT:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/da07326c-27a8-48c7-9530-1d8f41780b78)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/ef540435-a1be-47b1-aae8-905cf41ae40e)
 
 
 
@@ -126,11 +139,13 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ### QUERY:
 
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/0a218316-cc87-4f9b-b5fc-36d017655f76)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/245e2d24-0ffb-45f6-9cd2-899f69bca2a3)
+
 
 
 ### OUTPUT:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/3bda7895-6c27-4da6-871c-1e14f5c205a9)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/ce6cab51-0f45-4927-ae13-d6b7c79aa1d3)
+
 
 
 
@@ -138,25 +153,31 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 
 ### QUERY:
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/29fd74c8-fb4f-4db0-9505-78767ff8c0bd)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/f637f7fb-9e9c-45b8-a1da-dcb1e6726244)
+
+
+
 
 
 
 ### OUTPUT:
 
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/79f8f49b-c25c-4b4f-91aa-5a1f298d4c89)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/6c1f3505-736e-4510-ac0e-0311ebd9bc51)
+
 
 
 ### Q13) Find number of rows in the table EMP
 
 ### QUERY:
 
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/cf10893e-baea-46f8-8fba-a5dcfb09ca51)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/6afc6af9-6d2e-4372-86cc-4332e5f6a566)
+
 
 
 ### OUTPUT:
 
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/db62fdc9-5306-40cb-b50f-ec495a29931c)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/889ff357-c701-4da3-aae1-628931aceb04)
+
 
 
 
@@ -164,13 +185,15 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ### QUERY:
 
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/29e90f98-773c-48f0-91b2-691805bcc51c)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/191c4267-1e5c-4c44-9863-dfbc798104a5)
+
 
 
 
 ### OUTPUT:
 
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/bf994717-9c39-46d3-89ea-5c24a77182c5)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/cf64be87-1032-441a-bbfa-5e61e8100826)
+
 
 
 
@@ -178,13 +201,15 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ### QUERY:
 
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/2052818f-1beb-48bf-8ec3-c031c3d84777)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/20066b02-938b-435b-bd5d-2ca760d3b79e)
+
 
 
 
 ### OUTPUT:
 
-![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/1f9af77c-0b9e-4d6d-b607-eec83210ff11)
+![image](https://github.com/JivanKarthick/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121165867/86da09bc-0f85-4b01-9db6-aa7d84cf651a)
+
 
 ### RESULT:
 Thus the Data Manipulation Language (DML) Commands and built in functions in SQL
